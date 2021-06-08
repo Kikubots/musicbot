@@ -14,8 +14,6 @@
 
 - [kikuBOTs](https://t.me/kikubots)
 
-- [Pyrogram Library](https://github.com/pyrogram/pyrogram)
-
 ### Developers:
 
 - [kiku](https://t.me/kiku_seller)
