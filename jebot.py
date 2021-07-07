@@ -46,8 +46,8 @@ Jebot = Client(
  #No bots also allowed
 @Jebot.on_message(filters.private & ~filters.bot & ~filters.command("help") & ~filters.command("start") & ~filters.command("s"))
 async def song(client, message):
- #kikubots #kiku_networks
-    cap = "@kiku_networks"
+ #kikubots #teamkiku
+    cap = "@kikubots"
     url = message.text
     rkp = await message.reply("Processing...")
     search = SearchVideos(url, offset=1, mode="json", max_results=1)
@@ -129,7 +129,7 @@ async def song(client, message):
     
 @Jebot.on_message(filters.command("song") & ~filters.edited & filters.group)
 async def song(client, message):
-    cap = "@kikubots"
+    cap = "@kikubots - @tgxbots"
     url = message.text.split(None, 1)[1]
     rkp = await message.reply("Processing...")
     if not url:
