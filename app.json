@@ -1,7 +1,7 @@
 {
     "name": "musicbot",
     "description": "A bot that can download song you want.",
-    "logo": "https://telegra.ph/file/4501aa5bd83bdcefa658d.jpg",
+    "logo": "https://telegra.ph/file/552c945a7cb67e332dbe9.jpg",
     "keywords": [
         "Music",
         "Songdl",
@@ -29,7 +29,7 @@
             "url": "heroku/python"
         },
         {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      
         }
     ],
     "formation": {
